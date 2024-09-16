@@ -1,5 +1,5 @@
 "use client"
-import { duration } from "@material-ui/core";
+import { duration } from "@mui/material/styles";
 import { AnimatePresence } from "framer-motion";
 import { usePathname } from "next/navigation";
 import { motion } from "framer-motion";

@@ -5,8 +5,9 @@ import { usePathname } from "next/navigation";
 
 // components
 import Stairs from "./Stairs";
-import { Opacity } from "@material-ui/icons";
-import transitions, { duration } from "@material-ui/core/styles/transitions";
+import { Opacity } from "@mui/icons-material";
+import { transitions, duration } from "@mui/material/styles";
+
 
 
 
