@@ -60,7 +60,7 @@ const experience = {
     },
     {
       company: "Mastercard",
-      position: "Cybersecurity virtual experience Program",
+      position: "Cybersecurity Virtual Experience Program",
       duration: "September 2024",
     },
   ]
