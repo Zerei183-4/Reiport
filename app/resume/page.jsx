@@ -58,6 +58,11 @@ const experience = {
       position: "IT Business Support Intern",
       duration: "Pending Position",
     },
+    {
+      company: "Mastercard",
+      position: "Cybersecurity virtual experience Program",
+      duration: "September 2024",
+    },
   ]
 }
 
