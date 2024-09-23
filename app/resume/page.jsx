@@ -63,6 +63,11 @@ const experience = {
       position: "Cybersecurity Virtual Experience Program",
       duration: "September 2024",
     },
+    {
+      company: "AIG",
+      position: "Shield's Up: Cybersecurity",
+      duration: "September 2024",
+    },
   ]
 }
 
