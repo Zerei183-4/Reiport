@@ -24,14 +24,21 @@ const Home = () => {
           </p>
           {/* buttons and socials */}
           <div className="flex flex-col xl:flex-row items-center gap-8">
-            <Button
-              variant="outline"
-              size="lg"
+            <a
+              href="/assets/resume/Resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
               className="uppercase flex items-center gap-2"
             >
-              <span>Download Resume</span>
-              <FiDownload className="text-xl" />
-            </Button>
+              <Button
+                variant="outline"
+                size="lg"
+                className="uppercase flex items-center gap-2"
+              >
+                <span>Download Resume</span>
+                <FiDownload className="text-xl" />
+              </Button>
+            </a>
             <div className="mb-8 xl:mb-0">
               <Social containerStyles="flex gap-6" iconStyles="w-9 h-9 border border-accent rounded-full flex justify-center items-center text-accent text-base hover:bg-accent hover:text-primary hover:transition-all duration-500"/>
             </div>

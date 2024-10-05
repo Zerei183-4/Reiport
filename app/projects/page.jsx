@@ -46,15 +46,15 @@ const projects = [
   },
   {
     num: '03',
-    category: 'frontend',
+    category: 'Classifying E-Petitions using BERT',
     title: 'project 3',
-    description: 'chingus dingus',
+    description: 'The project focuses on training a BERT-based model for text classification specific to Japanese e-petitions. The goal is to classify petitions into 6 classes predefined by the data source.',
     stack: [
-      {name: "Wazuh"}, {name: "TheHive"}, {name: "Shuffle"}
+      {name: "Deep Learning"}, {name: "BERT"}, {name: "Data Tuning"}
     ],
-    image: '/assets/work/thumb3.png',
-    live: "",
-    github: "",
+    image: '/assets/work/project3.jpg',
+    live: "https://rhcybersecurity.blogspot.com/2024/10/classifying-e-petitions-using-bert.html",
+    github: "https://github.com/Zerei183-4/e-petition",
   },
 ]
 
@@ -118,7 +118,7 @@ const Projects = () => {
                   </TooltipProvider>
                 </a>
                 {/* github project button */}
-                <Link href={project.github}>
+                <a href={project.github} target="_blank" rel="noopener noreferrer">
                   <TooltipProvider delayDuration={100}>
                     <Tooltip>
                       <TooltipTrigger className="w-[70px] h-[70px] rounded-full bg-white/5 flex justify-center items-center group">
@@ -129,7 +129,7 @@ const Projects = () => {
                       </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
-                </Link>
+                </a>
               </div>
             </div>
           </div>
