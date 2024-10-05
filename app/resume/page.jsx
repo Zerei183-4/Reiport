@@ -54,8 +54,8 @@ const experience = {
   description: 'I have built a strong foundation in cybersecurity, supported by my CompTIA Security+ certification. Through various projects and hands-on learning experiences, I have gained practical knowledge in the tech industry. I am actively seeking internship opportunities to apply my skills and further expand my expertise.',
   items: [
     {
-      company: "Schneider Electric",
-      position: "IT Business Support Intern",
+      company: "and.d",
+      position: "AI Developer and Data Tuning Intern",
       duration: "Pending Position",
     },
     {
