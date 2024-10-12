@@ -56,7 +56,7 @@ const experience = {
     {
       company: "and.d",
       position: "AI Developer and Data Tuning Intern",
-      duration: "Pending Position",
+      duration: "October 2024 ~",
     },
     {
       company: "Mastercard",
