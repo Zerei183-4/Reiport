@@ -51,7 +51,7 @@ const about = {
 const experience = {
   icon: '/assets/resume/badge.svg',
   title: 'My Experience',
-  description: 'I have built a strong foundation in cybersecurity, supported by my CompTIA Security+ certification. Through various projects and hands-on learning experiences, I have gained practical knowledge in the tech industry. I am actively seeking internship opportunities to apply my skills and further expand my expertise.',
+  description: 'I have built a strong foundation in cybersecurity, supported by my CompTIA Security+ certification. Through various projects and hands-on learning experiences, I have gained practical knowledge in the tech industry.',
   items: [
     {
       company: "and.d",
